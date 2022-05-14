@@ -1,0 +1,68 @@
+#content{
+ max-width: 1600px;
+ margin : 0 auto;
+ text-align: center;
+} 
+#background {
+    height: 725px;
+}
+body {
+    background-color: #00FFFF; 
+}
+header {
+    background-color:rgba(20,30,13, .7);
+}
+footer {
+    background-color:rgba(20,30,13, .7);
+}
+.icon {
+    width: 80px;
+}
+.hero-img {
+    width: 100%;
+}
+nav a {
+    list-style: none;
+    padding: 0;
+    background: #E1C699;
+    width: 70%;
+    max-width: 100px;
+    margin: auto;
+} 
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    display: block;
+} 
+nav a {
+    display: inline-block ;
+    text-align: center;
+} 
+.home-title{
+    text-align: center;
+}
+.sub-title{
+    text-align: center;
+}
+.button-box{
+    text-align: center;
+}
+
+.home-grid{
+    text-align: center;
+}
+.mountains{
+    display: flex;
+    justify-content: center ;
+
+}
+.book{
+    color: yellow ;
+}
+.join{
+    color: yellow ;
+}
+.msg{
+    background-color:rgba(20,30,13, .7);
+}
