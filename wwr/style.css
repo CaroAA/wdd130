@@ -7,8 +7,18 @@
     height: 725px;
 }
 body {
-    background-color: #00FFFF; 
+    background-color: whitesmoke; 
+    margin: 0;
+    padding: 0;
 }
+h2 {
+    margin: 0;
+}
+head{
+    border: 10px solid #d9c2a3;
+    box-sizing: border-box;
+}
+
 header {
     background-color:rgba(20,30,13, .7);
 }
@@ -22,17 +32,14 @@ footer {
     width: 100%;
 }
 nav a {
-    list-style: none;
-    padding: 0;
-    background: #E1C699;
-    width: 70%;
-    max-width: 100px;
-    margin: auto;
+    color: blue ;
+    border: 1px solid lightskyblue;
+    background-color: lightblue;
 } 
 nav a {
     text-decoration: none;
     color: white;
-    padding: 20px;
+    padding: 5px;
     display: block;
 } 
 nav a {
@@ -41,6 +48,8 @@ nav a {
 } 
 .home-title{
     text-align: center;
+    font-family: 'Caveat', cursive;
+    font-size: 2em;
 }
 .sub-title{
     text-align: center;
@@ -52,17 +61,39 @@ nav a {
 .home-grid{
     text-align: center;
 }
+.card-img{
+
+    border: 5px solid #d9c2a3 ;
+    box-sizing: border-box;
+}
+#background {
+    height: 725px;
+    border: 1px solid darkorange;
+    padding: 1px 1px 1px 1px;
+    background-color: #d9c2a3;
+
+}
+
 .mountains{
     display: flex;
     justify-content: center ;
-
+   
 }
 .book{
-    color: yellow ;
+    color: blue ;
+    border: 1px solid lightskyblue;
+    padding: 5px 5px 5px 5px;
+    background-color: lightblue;
 }
 .join{
-    color: yellow ;
+    color: black ;
+    color: blue ;
+    border: 1px solid lightskyblue;
+    padding: 5px 5px 5px 5px;
+    background-color: lightblue;
+
 }
 .msg{
     background-color:rgba(20,30,13, .7);
+    line-height: 1.5em;
 }
