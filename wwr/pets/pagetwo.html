@@ -21,55 +21,85 @@
     </body>
     
 
-        <headertwo>
+        <header>
         
-            <a id="logotwo" href="index.html">
-                <img class="logotwo" src="images/pets.png" width="80" , height="120">
+            <a id="logo" href="index.html">
+                <img class="logo" src="images/pets.png" width="80" , height="120">
             </a>
             <nav>
                 <a href="index.html">Home</a> 
                 <a href="pagetwo.html">Page 2</a>
-                <a href="pagethree.html">Page3</a>
+                <a href="pagethree.html">Page 3</a>
                 
             </nav>
         </header>
-        <div id="hero2">
-            <div id="hero-box2">
-                <img class ="hero-img3" src="images/pw3-min.jpg" width="300", height="600">
-                <img class ="hero-img3" src="images/pw4-min.jpg" width="300", height="600">
-            </div>
-            <section id="hero-msg">
-                <h1 class="home-title"></h1>
-                <h4 class = "sub-title"> </h4>
-                <div class='button-box'>
-                    <a class='book' href="rates.html"></a>
-                </div>
-
-            </section>
-
+        <!DOCTYPE html>
+        <html>
+        <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+        
+        </style>
+        </head>
+        <body>
+        
+        <h2>Automatic Slideshow</h2>
+        <p>Change image every 2 seconds:</p>
+        
+        <div class="slideshow-container">
+        
+        <div class="mySlides fade">
+          <div class="numbertext"></div>
+          <img src="images/pw3-min.jpg" style="width: 40%">
+          <div class="text">Caption Text</div>
         </div>
-        <main class="home">
-            <section class="">
-                
-               
-               
-            </section>
+        
+        <div class="mySlides fade">
+          <div class="numbertext"></div>
+          <img src="images/pw4-min.jpg" style="width: 40%" >
+          <div class="text">Caption Two</div>
+        </div>
+        
+        
+        
+        </div>
+        <br>
+        
+        <div style="text-align:center">
+          <span class="dot"></span> 
+          <span class="dot"></span> 
+          
+        </div>
+        
+        <script>
+        let slideIndex = 0;
+        showSlides();
+        
+        function showSlides() {
+          let i;
+          let slides = document.getElementsByClassName("mySlides");
+          let dots = document.getElementsByClassName("dot");
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+          }
+          slideIndex++;
+          if (slideIndex > slides.length) {slideIndex = 1}    
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";  
+          dots[slideIndex-1].className += " active";
+          setTimeout(showSlides, 2000); // Change image every 2 seconds
+        }
+        </script>
+        
+        > 
            
-    
-            <section class="seccionone">
-                
-               
-                
             </section>
-            
-            <section class="secciontwo">
-             
-                
-            </section>
-            <div id="background"></div>
+            <div id="backgroundtwo"></div>
 
             
-            <section class="msg">
+          
                 
             </section>
         </main>

@@ -57,11 +57,16 @@ nav a {
     grid-template-columns: 150px auto;
     display: flex;
     justify-content: space-around;
+    padding: 10px;
+    width: 150px;
     
 } 
 nav a {
     display: inline-block ;
     text-align: center;
+}
+nav a:hover {
+background-color: aquamarine  ;
 }
 
 #hero {
@@ -75,18 +80,32 @@ nav a {
     margin-top: 20px;
     grid-column: 2/3;
     grid-row: 1/2;
+    text-align: center;
+    color: #89F9D9 ;
+    font-size: 2em;
+    font-family: 'Rubik Moonrocks', 'Splash';
+    
 }
 #hero-box {
-    grid-column: 1/4;
+    grid-column: 2/4;
     grid-row: 1/3;
     z-index: -1;
+    padding: 100px;
+    
 }
 
 .hero-img {
-    width: 80%;
-    display: grid;
-    grid-template-columns: 2fr 3fr 2fr;
+    width: 70%;
+    border-radius: 100%;
+    object-fit: cover ;
+    align-items: center;
+    border: rgb(15, 15, 15);
+    padding: 20px;
    
+}
+.paragraph {
+color: blue;
+font-family: 'Rubik Moonrocks', 'Splash';
 }
 
 
@@ -102,6 +121,7 @@ headertwo{
        align-self: center;
        width: 20%;
        border-radius: 50%;
+     
 }
 .hero-img2 {
        width: 80%;
@@ -129,4 +149,110 @@ headertwo{
        grid-row: 1/3;
        z-index: -1;
 
+}
+.home{
+       background-color: aqua;
+      align-items: center;
+      color: black;
+      text-align: end;
+}
+   #pagtwoimages
+   * {box-sizing:border-box}
+
+   /* Slideshow container */
+   .slideshow-container {
+     max-width: 1000px;
+     position:relative;
+     left: 300px;
+     margin: auto;
+     display: block;
+    
+     
+}
+   
+   /* Hide the images by default */
+   .mySlides {
+     display:none;
+     
+}
+   
+   /* Next & previous buttons */
+   .prev, .next {
+     cursor: pointer;
+     position: absolute;
+     top: 50%;
+     width: auto;
+     margin-top: -22px;
+     padding: 16px;
+     color: white;
+     font-weight: bold;
+     font-size: 18px;
+     transition: 0.6s ease;
+     border-radius: 0 3px 3px 0;
+     user-select: none;
+}
+   
+   /* Position the "next button" to the right */
+   .next {
+     right: 0;
+     border-radius: 3px 0 0 3px;
+ }
+   
+   /* On hover, add a black background color with a little bit see-through */
+   .prev:hover, .next:hover {
+   background-color: rgba(0,0,0,0.8);
+}
+   
+   /* Caption text */
+   .text {
+     color: #f2f2f2;
+     font-size: 15px;
+     padding: 8px 12px;
+     position: absolute;
+     bottom: 8px;
+     width: 100%;
+     text-align: center;
+}
+   
+   /* Number text (1/3 etc) */
+   .numbertext {
+     color: rgb(75, 79, 82);
+     font-size: 12px;
+     padding: 8px 12px;
+     position: absolute;
+     top: 0;
+}
+   
+   /* The dots/bullets/indicators */
+   .dot {
+     cursor: pointer;
+     height: 15px;
+     width: 15px;
+     margin: 0 2px;
+     background-color: rgb(163, 235, 253);
+     border-radius: 50%;
+     display: inline-block;
+     transition: background-color 0.6s ease;
+}
+   
+   .active, .dot:hover {
+     background-color: #e3ec63;
+}
+   
+   /* Fading animation */
+   .fade {
+     animation-name: fade;
+     animation-duration: 1.5s;
+}
+ 
+   
+   @keyframes fade {
+     from {opacity: .4}
+     to {opacity: 1}
+}
+   
+        
+ /* On smaller screens, decrease text size */
+ @media only screen and (max-width: 300px) {
+ .text {font-size: 11px}
 }
