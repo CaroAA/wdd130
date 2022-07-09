@@ -135,7 +135,43 @@ headertwo{
        z-index: -1;
 
 }
+.paragraph1{
+       text-align: center;
+       font-family: cursive;
+       background-color: rgb(233, 233, 230);
+       color: rgb(36, 9, 134);
+       size: 50px;
 
+     
+}
+.paragraph2 a{
+       color: rgb(226, 152, 13);
+       text-decoration: none;
+       display: block;
+       font-size: 15px;
+       background-color:rgb(114, 229, 245);  
+       font-family: cursive;
+       text-align: center;
+       
+       
+       
+
+}
+.paragraph2 :hover{
+       background-color: rgb(209, 240, 99);
+       text-align: center;
+       padding-left: 20px;
+}
+.two {
+    text-align: center;
+    background-color: #e3ec63;
+    font-size: 130%;
+    font-family: cursive;
+       
+}
+.Three{
+   background-color: #f7d5fc;
+}
 
 #Page3
 .hero-img3 {
@@ -166,7 +202,7 @@ headertwo{
      left: 300px;
      margin: auto;
      display: block;
-    
+    padding: 60px;
      
 }
    
@@ -200,7 +236,7 @@ headertwo{
    
    /* On hover, add a black background color with a little bit see-through */
    .prev:hover, .next:hover {
-   background-color: rgba(0,0,0,0.8);
+   background-color: rgba(236, 163, 163, 0.8);
 }
    
    /* Caption text */
