@@ -7,7 +7,7 @@
        height: 725px;
 }
 body{
-       background-color: whitesmoke; 
+       background-color: rgb(248, 247, 245); 
        margin: 0;
        padding: 0;
 }
@@ -20,7 +20,7 @@ head{
 }
    
 header{
-       background-color:rgba(74, 170, 6, 0.7);
+       background-color:rgba(230, 241, 63, 0.7);
        display: grid;
        grid-template-columns: 150px auto;   
 }
@@ -45,10 +45,12 @@ footer{
        align-self: center;
        width: 100%;
        border-radius: 50%;
+       border-color: chartreuse;
+     
 }
 nav a {
     text-decoration: none;
-    color: white;
+    color: rgb(248, 99, 54);
     padding: 5px;
     display: block;
     font-size: 22px;
@@ -59,6 +61,7 @@ nav a {
     justify-content: space-around;
     padding: 10px;
     width: 150px;
+    font-family: cursive;
     
 } 
 nav a {
@@ -73,6 +76,7 @@ background-color: aquamarine  ;
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
     margin-top: -100px; 
+    
 }
 #hero-msg {
     grid-column: 2/3;
@@ -81,9 +85,10 @@ background-color: aquamarine  ;
     grid-column: 2/3;
     grid-row: 1/2;
     text-align: center;
-    color: #89F9D9 ;
+    color: #7bb6fa ;
     font-size: 2em;
     font-family: 'Rubik Moonrocks', 'Splash';
+    background-color: rgb(193, 245, 98);
     
 }
 #hero-box {
@@ -92,20 +97,22 @@ background-color: aquamarine  ;
     z-index: -1;
     padding: 100px;
     
+    
 }
 
 .hero-img {
     width: 70%;
-    border-radius: 100%;
+    border-radius: 80%;
     object-fit: cover ;
     align-items: center;
-    border: rgb(15, 15, 15);
+    
     padding: 20px;
+   
    
 }
 .paragraph {
-color: blue;
-font-family: 'Rubik Moonrocks', 'Splash';
+color: rgb(42, 196, 183);
+font-family: 'cursive';
 }
 
 
@@ -187,11 +194,112 @@ headertwo{
 
 }
 .home{
-       background-color: aqua;
+       background-color: rgb(145, 247, 120);
       align-items: center;
       color: black;
       text-align: end;
 }
+
+.accesories{
+       background-color: rgb(240, 142, 240);
+       text-align: center;
+       font-family: cursive;       
+}
+
+.contentone{
+   background-color: black;
+}
+
+* {
+       box-sizing: border-box;
+     }
+     
+     /* Position the image container (needed to position the left and right arrows) */
+     .container {
+       position: relative;
+     }
+     
+     /* Hide the images by default */
+     .mySlides {
+       display: none;
+     }
+     
+     /* Add a pointer when hovering over the thumbnail images */
+     .cursor {
+       cursor: pointer;
+     }
+     
+     /* Next & previous buttons */
+     .prev,
+     .next {
+       cursor: pointer;
+       position: absolute;
+       top: 40%;
+       width: auto;
+       padding: 16px;
+       margin-top: -50px;
+       color: white;
+       font-weight: bold;
+       font-size: 20px;
+       border-radius: 0 3px 3px 0;
+       user-select: none;
+       -webkit-user-select: none;
+     }
+     
+     /* Position the "next button" to the right */
+     .next {
+       right: 0;
+       border-radius: 3px 0 0 3px;
+     }
+     
+     /* On hover, add a black background color with a little bit see-through */
+     .prev:hover,
+     .next:hover {
+       background-color: rgba(0, 0, 0, 0.8);
+     }
+     
+     /* Number text (1/3 etc) */
+     .numbertext {
+       color: #f2f2f2;
+       font-size: 12px;
+       padding: 8px 12px;
+       position: absolute;
+       top: 0;
+     }
+     
+     /* Container for image text */
+     .caption-container {
+       text-align: center;
+       background-color: #222;
+       padding: 2px 16px;
+       color: white;
+     }
+     
+     .row:after {
+       content: "";
+       display: table;
+       clear: both;
+     }
+     
+     /* Six columns side by side */
+     .column {
+       float: left;
+       width: 16.66%;
+     }
+     
+     /* Add a transparency effect for thumnbail images */
+     .demo {
+       opacity: 0.6;
+     }
+     
+     .active,
+     .demo:hover {
+       opacity: 1;
+     }
+     
+
+
+
    #pagtwoimages
    * {box-sizing:border-box}
 
