@@ -196,8 +196,9 @@ headertwo{
 .home{
        background-color: rgb(145, 247, 120);
       align-items: center;
-      color: black;
+      color: rgb(26, 134, 223);
       text-align: end;
+      font-family: cursive;
 }
 
 .accesories{
@@ -212,7 +213,7 @@ headertwo{
 
 * {
        box-sizing: border-box;
-     }
+}
      
      /* Position the image container (needed to position the left and right arrows) */
      .container {
